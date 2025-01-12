@@ -4,7 +4,7 @@ const lesson1Controller = require ('./controllers/lesson1');
  
 app.get('/', lesson1Controller.bellaRoute );
 
-app.get('/Liam', lesson1Controller.liamRoute);
+app.get('/liam', lesson1Controller.liamRoute);
  
 const port = 3000;
 

@@ -3,7 +3,7 @@ const bellaRoute = (req, res) => {
 };
 
 const liamRoute = (req, res) => {
-    res.send("Bella");
+    res.send("Liam");
 };
 
 module.exports = {
