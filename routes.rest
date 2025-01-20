@@ -22,9 +22,12 @@ PUT  http://localhost:3000/users/67856ea78d349b03ab651cfd HTTP/1.1
 content-type: application/json
 
 {
-  "firstname": "Noel",
+  "firstname": "Latham",
   "lastname": "Swartz",
-  "email": "NoelSwartz@12345",
+  "email": "LathamSwartz@12345",
   "favoriteColor": "Green",
   "birthday": "21-06-1995"
 }
+
+### Delete user
+DELETE http://localhost:3000/users/678ead59bca9ede6e76ace66 HTTP/1.1
