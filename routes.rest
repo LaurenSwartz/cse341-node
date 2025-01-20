@@ -5,5 +5,26 @@ GET http://localhost:3000/users
 ### Get users by ID 
 GET http://localhost:3000/users/67856ea78d349b03ab651cfd
 
+### Create contact
+POST http://localhost:3000/users HTTP/1.1
+content-type: application/json
 
-    
+{
+  "firstname": "Latham",
+  "lastname": "Swartz",
+  "email": "LathamSwartz@12345",
+  "favoriteColor": "Green",
+  "birthday": "21-06-1995"
+}
+
+### Update contact
+PUT  http://localhost:3000/users/67856ea78d349b03ab651cfd HTTP/1.1
+content-type: application/json
+
+{
+  "firstname": "Noel",
+  "lastname": "Swartz",
+  "email": "NoelSwartz@12345",
+  "favoriteColor": "Green",
+  "birthday": "21-06-1995"
+}
